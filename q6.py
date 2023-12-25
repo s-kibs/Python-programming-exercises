@@ -22,7 +22,7 @@ for item in numList:
     Q = math.sqrt((2*C*Seq)/H)
     numList[i] = int(Q)
     i += 1
-print(numList)
+print(*numList, sep=',')
 
 # Solution
 # import math
